@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    .container {
-        display:grid;
-        grid-template-columns:repeat(3, 100px);
-        grid-template-rows:repeat(2, 100px);
-        grid-gap: 10px;
-    }
-
-    .item {
-        background-color:purple;
-        color:white;
-        padding:10px;
-        text-align:center;
-    }
-    </style>
+    <title>E-Commerce Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="item">Item 1</div> 
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-        <div class="item">Item 4</div>
-        <div class="item">Item 5</div>
-        <div class="item">Item 6</div>
-
-    </div>
+    <nav class="navbar">
+        <div class="logo">Shop Ease</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="actions">
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <section>
+        <h1>Welcome to Shop Ease!</h1>
+        <p>Your one-stop destination for all shopping needs.</p>
+    </section>
 </body>
 </html>
